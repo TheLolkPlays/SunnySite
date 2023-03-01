@@ -1,5 +1,5 @@
 import React from 'react'
-import { SunnyjpgURL, SiteOwner } from '../../Universalcomponents/UniversalVariables'
+import { SiteOwner } from '../../Universalcomponents/UniversalVariables'
 import Line from "../../Universalcomponents/Line"
 
 export default function About() {
