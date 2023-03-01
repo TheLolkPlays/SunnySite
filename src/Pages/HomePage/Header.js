@@ -1,5 +1,5 @@
 import React from 'react'
-import { SunnyjpgURL, SiteOwner } from '../../Universalcomponents/UniversalVariables'
+import { blob, SunnyURL, SiteOwner } from '../../Universalcomponents/UniversalVariables'
 
 export default function Header() {
     return (
@@ -11,8 +11,8 @@ export default function Header() {
                     {SiteOwner}
                     <span className='w3-hide-small'>.</span></h1>
                 <p>Photographer and Web Designer.</p>
-                <img src={SunnyjpgURL} alt="Solveig Grønseth" className='w3-image' width="992" height="1108"></img>
+                <img src={`${blob}${SunnyURL}`} alt="Solveig Grønseth" className='w3-image' width="992" height="1108"></img>
             </header>
-        </div>
+        </div >
     )
 }

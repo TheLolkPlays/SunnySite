@@ -1,5 +1,5 @@
 import React from 'react';
-import { SiteOwner, SunnyjpgURL } from '../../Universalcomponents/UniversalVariables'
+import { blob, SiteOwner, SunnyURL } from '../../Universalcomponents/UniversalVariables'
 import './Navbar.css';
 
 export default function Navbar() {
@@ -14,7 +14,7 @@ export default function Navbar() {
 function Large() {
     return (
         <nav className="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
-            <img src={SunnyjpgURL} style={{ width: '100%' }} alt={SiteOwner}/>
+            <img src={`${blob}${SunnyURL}`} style={{ width: '100%' }} alt={SiteOwner} />
 
             <a href="/#" className="w3-bar-item w3-button w3-padding-large w3-black">
                 <i className="fa fa-home w3-xxlarge"></i>
